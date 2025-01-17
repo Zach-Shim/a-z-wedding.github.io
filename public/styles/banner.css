@@ -1,0 +1,39 @@
+*
+{
+    background-color: #f5f1ee;
+    margin: 0;
+    padding: 0;
+}
+
+.fancy-font
+{
+    font-family: 'Roboto Thin', serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+nav a
+{
+    font-family: 'Roboto Thin', serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: darkslategray;
+}
+
+nav a:hover
+{
+    color: darkred;
+}
+
+nav img
+{
+    width: auto;
+    height: 100px;
+}
+
+.banner-img
+{
+    width: 100vw;
+    height: 600px;
+    object-fit: cover;
+}
