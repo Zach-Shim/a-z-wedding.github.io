@@ -2,28 +2,21 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="public/styles/banner.css">
-        <link rel="stylesheet" href="public/styles/box.css">
-        <link rel="stylesheet" href="public/styles/flex.css">
+        <link rel="stylesheet" href="public/styles/forms.css">
+        <link rel="stylesheet" href="public/styles/common/common.css">
         <title>A+Z Wedding</title>
     </head>
 
-    <body class="flex-col flex-main-start flex-cross-center my-0 py-0">
-        <div class="flex-col flex-main-start flex-cross-center gap-2">
-            <p class="fancy-font pt-3">Amna & Zach</p>
-
-            <nav class="flex-row flex-center flex-wrap gap-3 px-5">
-                <a href="app/about.html">About Us</a>
-                <a href="app/photos.html">Photos</a>
-                <a href="app/wedding.html">Wedding</a>
-                <a href="app/schedule.html">Schedule</a>
-                <a href="app/rsvp.html">RSVP</a>
-            </nav>
-
-            <img class="banner-img" src="public/images/beach-proposal.jpg" alt="couple photo">
+    <body>
+        <div class="flex-col flex-center gap-2 h-screen">
+            <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHY0djJnYnhmN2djMmwwZnlwMGhwZnZpMWZ5NDllemQ5eG1naHp1ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0G17mcoGBEabVgn6/giphy.gif" alt="what's the password Simpsons gif">
+            <form class="flex-col flex-center" method="get" id="site-lock-form">
+                <label for="password">Enter Password</label>
+                <input type="password" id="password" class="site-lock" name="password">
+                <p id="validation-text"></p>
+            </form>
         </div>
     </body>
+
+    <script src="scripts/lock.js"></script>
 </html>

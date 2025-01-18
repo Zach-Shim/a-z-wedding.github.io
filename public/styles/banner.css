@@ -3,13 +3,13 @@
     background-color: #f5f1ee;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .fancy-font
 {
     font-family: 'Roboto Thin', serif;
     font-size: 3em;
-    text-align: center;
 }
 
 nav a
@@ -25,15 +25,43 @@ nav a:hover
     color: darkred;
 }
 
-nav img
-{
-    width: auto;
-    height: 100px;
-}
-
 .banner-img
 {
     width: 100vw;
     height: 600px;
     object-fit: cover;
+}
+
+.subsection p
+{
+    font-family: 'Roboto Thin', serif;
+    font-size: 1.5em;
+    color: darkslategray;
+}
+
+.subsection h2
+{
+    font-family: 'Roboto Thin', serif;
+    font-size: 3.5em;
+    color: darkslategray;
+}
+
+.subsection h1
+{
+    font-family: 'Roboto Thin', serif;
+    font-size: 4em;
+    color: darkslategray;
+}
+
+.rsvp-button
+{
+    font-family: 'Roboto Thin', serif;
+    font-size: 1em;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+    border-radius: 0.25em;
+    width: 20em;
 }

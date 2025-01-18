@@ -1,7 +1,7 @@
 class Router
 {
     static routes = {
-        "Home": "index.html",
+        "Home": "home.html",
         "About Us": "about.html",
         "Photos": "photos.html",
         "Wedding": "wedding.html",

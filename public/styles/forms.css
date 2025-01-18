@@ -1,0 +1,14 @@
+.site-lock
+{
+    background-color: rgb(249 250 251);
+    border: 1px solid rgb(209 213 219);
+    border-radius: 0.25rem;
+    color: #721c24;
+    padding: 0.5rem 1.25rem;
+}
+
+.site-lock:focus, .site-lock:hover
+{
+    outline-style: solid;
+    outline-color: rgb(219 219 219);
+}
