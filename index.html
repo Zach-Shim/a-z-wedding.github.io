@@ -12,7 +12,7 @@
             <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHY0djJnYnhmN2djMmwwZnlwMGhwZnZpMWZ5NDllemQ5eG1naHp1ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0G17mcoGBEabVgn6/giphy.gif" alt="what's the password Simpsons gif">
             <form class="flex-col flex-center" method="get" id="site-lock-form">
                 <label for="password">Enter Password</label>
-                <input type="password" id="password" class="site-lock" name="password">
+                <input type="password" id="password" class="site-lock" name="password" pattern="[0-9]*" inputmode="numeric">
                 <p id="validation-text"></p>
             </form>
         </div>
