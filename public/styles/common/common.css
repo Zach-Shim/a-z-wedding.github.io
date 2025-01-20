@@ -1,4 +1,6 @@
-@import url("flex.css");
 @import url("../forms.css");
+@import url("colors.css");
+@import url("flex.css");
 @import url("sizing.css");
 @import url("spacing.css");
+@import url("text.css");
