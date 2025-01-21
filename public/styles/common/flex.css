@@ -24,6 +24,15 @@
 .flex-wrap-reverse { flex-wrap: wrap-reverse; }
 .flex-nowrap { flex-wrap: nowrap; }
 
+flex-ac-start { align-content: start; }
+flex-ac-end { align-content: end; }
+flex-ac-center { align-content: center; }
+flex-ac-between { align-content: space-between; }
+flex-ac-around { align-content: space-around; }
+flex-ac-stretch { align-content: stretch; }
+
+.flex-1 { flex: 1; }
+
 .gap-0 { gap: 0; }
 .gap-1 { gap: 1rem; }
 .gap-2 { gap: 2rem; }

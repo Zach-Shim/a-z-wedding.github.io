@@ -55,6 +55,13 @@
 .p-5 { padding: 0.5em; }
 .p-6 { padding: 0.6em; }
 .p-7 { padding: 0.7em; }
+.p-8 { padding: 0.8em; }
+.p-9 { padding: 0.9em; }
+.p-10 { padding: 1.0em; }
+.p-20 { padding: 2.0em; }
+.p-30 { padding: 3.0em; }
+.p-40 { padding: 4.0em; }
+.p-50 { padding: 5.0em; }
 
 .py-0 { padding-top: 0; padding-bottom: 0; }
 .py-1 { padding-top: 0.25em; padding-bottom: 0.25em; }
@@ -62,6 +69,11 @@
 .py-3 { padding-top: 1em; padding-bottom: 1em; }
 .py-4 { padding-top: 1.5em; padding-bottom: 1.5em; }
 .py-5 { padding-top: 2em; padding-bottom: 2em; }
+.py-6 { padding-top: 2.5em; padding-bottom: 2.5em; }
+.py-7 { padding-top: 3em; padding-bottom: 3em; }
+.py-8 { padding-top: 3.5em; padding-bottom: 3.5em; }
+.py-9 { padding-top: 4em; padding-bottom: 4em; }
+.py-10 { padding-top: 4.5em; padding-bottom: 4.5em; }
 
 .px-0 { padding-left: 0; padding-right: 0; }
 .px-1 { padding-left: 0.25em; padding-right: 0.25em; }
@@ -69,6 +81,11 @@
 .px-3 { padding-left: 1em; padding-right: 1em; }
 .px-4 { padding-left: 1.5em; padding-right: 1.5em; }
 .px-5 { padding-left: 2em; padding-right: 2em; }
+.px-6 { padding-left: 2.5em; padding-right: 2.5em; }
+.px-7 { padding-left: 3em; padding-right: 3em; }
+.px-8 { padding-left: 3.5em; padding-right: 3.5em; }
+.px-9 { padding-left: 4em; padding-right: 4em; }
+.px-10 { padding-left: 4.5em; padding-right: 4.5em; }
 
 .pt-0 { padding-top: 0; }
 .pt-1 { padding-top: 0.25em; }

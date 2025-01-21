@@ -3,8 +3,9 @@ class Router
     static routes = {
         "Home": "home.html",
         "About Us": "about.html",
+        "Wedding Card": "card.html",
         "Photos": "photos.html",
-        "Wedding": "wedding.html",
+        "Events": "events.html",
         "Schedule": "schedule.html",
         "RSVP": "rsvp.html",
     };
