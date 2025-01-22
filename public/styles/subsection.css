@@ -3,6 +3,8 @@
     color: #1F2937;
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
+    text-align: center;
 }
 
 .rsvp-button
@@ -22,9 +24,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2em;
+    gap: 20px;
 
-    padding: 4em;
+    padding: 80px;
 }
 
 .info-card
@@ -32,8 +34,8 @@
     padding: 15px;
     border-radius: 10px;
 
-    width: 10em;
-    height: 10em;
+    width: 150px;
+    height: 150px;
 
     background-position: center;
     background-repeat: no-repeat;
