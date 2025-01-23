@@ -1,16 +1,24 @@
 .parallax
 {
-    /* The image used */
-    background-image: url("../images/parallax.jpg");
-
-    /* Set a specific height */
-    min-height: 100vh;
-
-    /* Create the parallax scrolling effect */
+    background-image: url("../images/parallax-desktop.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    min-height: 100vh;
+}
+
+@media (max-width: 500px)
+{
+    .parallax
+    {
+        background-image: url("../images/parallax-mobile.jpg");
+        background-attachment: fixed;
+        background-position: start;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
 .main-heading
