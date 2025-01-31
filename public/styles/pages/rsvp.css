@@ -1,0 +1,18 @@
+input[type="radio"] {
+	display: none;
+}
+
+input[type="radio"]:checked + label {
+	background-color: #00008b;
+	color: white;
+}
+
+input[type="radio"] + label {
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: darkslategray;
+	color: white;
+	cursor: pointer;
+}

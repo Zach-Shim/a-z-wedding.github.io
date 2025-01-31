@@ -1,4 +1,6 @@
 .bg-clear { background-color: transparent; }
+.bg-black { background-color: black; }
+.bg-white { background-color: white; }
 .bg-blue { background-color: #3882F6; }
 
 .color-white { color: white; }

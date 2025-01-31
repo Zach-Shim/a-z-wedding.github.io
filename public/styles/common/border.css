@@ -1,3 +1,6 @@
+.border-black { border: thin solid black; }
+.border-white { border: thin solid white; }
+
 .border-solid { border-style: solid; }
 .border-dashed { border-style: dashed; }
 .border-dotted { border-style: dotted; }
@@ -5,10 +8,14 @@
 .border-thin { border-width: 1px; }
 .border-medium { border-width: 2px; }
 .border-thick { border-width: 4px; }
-.border-radius-small { border-radius: 4px; }
-.border-radius-medium { border-radius: 8px; }
-.border-radius-large { border-radius: 16px; }
-.border-color-primary { border-color: #3498db; }
-.border-color-secondary { border-color: #2ecc71; }
-.border-color-tertiary { border-color: #e74c3c; }
-.border-color-quaternary { border-color: #9b59b6; }
+
+.br-sm { border-radius: 4px; }
+.br-med { border-radius: 8px; }
+.br-lg { border-radius: 16px; }
+
+.bc-black { border-color: black; }
+.bc-white { border-color: white; }
+.bc-primary { border-color: #3498db; }
+.bc-secondary { border-color: #2ecc71; }
+.bc-tertiary { border-color: #e74c3c; }
+.bc-quaternary { border-color: #9b59b6; }

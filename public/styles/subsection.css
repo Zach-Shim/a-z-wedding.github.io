@@ -1,6 +1,6 @@
 .parallax
 {
-    background-image: url("../images/parallax-desktop.jpg");
+    background-image: url("../images/parallax/parallax-desktop.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,7 +13,7 @@
 {
     .parallax
     {
-        background-image: url("../images/parallax-mobile.jpg");
+        background-image: url("../images/parallax/parallax-mobile.jpg");
         background-attachment: fixed;
         background-position: start;
         background-repeat: no-repeat;
