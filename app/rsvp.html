@@ -9,34 +9,28 @@
 </head>
 
 <body>
-    <form action="" method="POST">
-        <fieldset class="">
-            <legend>RSVP Details</legend>
-            
-            <div>
-                <label for="first-name">First Name:</label>
-                <input type="text" id="first-name" name="first_name" placeholder="First Name..." required/>
-            </div>
-            
-            <div>
-                <label for="last-name">Last Name:</label>
-                <input type="text" id="last-name" name="last_name" placeholder="Last Name..." required/>
-            </div>
+    <form action="" method="POST" class="grid wp-40 rsvp-container">
+        <h3 class="rsvp-heading m-0">RSVP Information</h3>
+        <input type="text" id="first-name" name="first_name" maxlength="15" required class="first-input"/>
+        <label for="first-name" class="first-input"><span>First Name</span> <span>*</span></label>
+        
+        <input type="text" id="last-name" name="last_name" maxlength="15" required class="last-input"/>
+        <label for="last-name" class="last-input"><span>Last Name</span> <span>*</span></label>
 
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Optional..."/>
-            </div>
+        <input type="email" id="email" name="email" class="email-input"/>
+        <label for="email" class="email-input"><span>Email</span> <span>*</span></label>
 
-            <div>
-                <input type="radio" id="yes" name="rsvp-choice" value="yes"/>
-                <label for="yes" class="px-20 py-10 br-med border-black">Yes</label>
+        <input type="tel" id="phone" name="phone" class="phone-input"/>
+        <label for="phone" class="phone-input">Phone Number</label>
 
-                <input type="radio" id="no" name="rsvp-choice" value="no"/>
-                <label for="no" class="px-20 py-10 br-med border-black">No</label>
-            </div>
-        </fieldset>
-        <button type="submit" class="bg-black color-white px-20 py-10 br-med bc-black">Submit</button>
+        <h3 class="attending-heading m-0">Are You Attending?</h3>
+        <input type="radio" id="yes" name="rsvp-choice" value="yes" class="checkbox-input-yes"/>
+        <label for="yes" class="checkbox-input-yes py-10 br-sm border-black">Yes</label>
+
+        <input type="radio" id="no" name="rsvp-choice" value="no" class="checkbox-input-no"/>
+        <label for="no" class="checkbox-input-no py-10 br-sm border-black">No</label>
+
+        <button type="submit" class="submit-button bg-black color-white px-20 py-10 br-sm border-black">Submit</button>
     </form>
 </body>
 
